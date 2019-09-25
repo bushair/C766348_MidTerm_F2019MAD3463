@@ -1,8 +1,11 @@
 package com.lambton;
 
+import java.text.DecimalFormat;
+
 public class LambtonStringTools {
     public static void main(String[] args)
     {
+        //STRING REVERSE
         String input = "LAMBTON";
 
         byte [] strAsByteArray = input.getBytes();
@@ -15,5 +18,16 @@ public class LambtonStringTools {
         System.out.println(new String(result));
 
 
+      //NAME
+        String nameString="bushair";
+        System.out.println(nameString.toUpperCase());
+        nameString.
+
     }
-}
+
+
+
+
+    }
+
+
