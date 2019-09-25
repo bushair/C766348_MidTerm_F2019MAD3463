@@ -21,13 +21,23 @@ public class LambtonStringTools {
       //NAME
         String nameString="bushair";
         System.out.println(nameString.toUpperCase());
-        nameString.
+
+        String strArray[] = nameString.split(" ");
+
+        for(int i=0; i < strArray.length; i++){
+            System.out.println(strArray[i]);
+        }
+
+
+
+
+
 
     }
 
 
 
 
-    }
+}
 
 
